@@ -1,0 +1,12 @@
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\bin\Debug\Employee_Details_Information_App.exe.config
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\bin\Debug\Employee_Details_Information_App.exe
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\bin\Debug\Employee_Details_Information_App.pdb
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.csproj.AssemblyReference.cache
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.Frm_Add_Employee_Details.resources
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.Frm_Employee_Details_List.resources
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.Properties.Resources.resources
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.csproj.GenerateResource.cache
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.csproj.CoreCompileInputs.cache
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.exe
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.pdb
+D:\c#.net\Assignment no 2\Employee_Details_Information_App\Employee_Details_Information_App\obj\Debug\Employee_Details_Information_App.Frm_Login_Form.resources
