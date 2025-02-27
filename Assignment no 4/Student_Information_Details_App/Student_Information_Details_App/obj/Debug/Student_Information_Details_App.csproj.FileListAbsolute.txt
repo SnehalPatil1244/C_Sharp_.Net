@@ -1,0 +1,14 @@
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\bin\Debug\Student_Information_Details_App.exe.config
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\bin\Debug\Student_Information_Details_App.exe
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\bin\Debug\Student_Information_Details_App.pdb
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.csproj.AssemblyReference.cache
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Frm_Add_Student_Details.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Frm_Login_Form.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Frm_Search_Student_Details.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Frm_Student_List.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Frm_Update_Student_Details.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.Properties.Resources.resources
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.csproj.GenerateResource.cache
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.csproj.CoreCompileInputs.cache
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.exe
+D:\c#.net\Assignment no 4\Student_Information_Details_App\Student_Information_Details_App\obj\Debug\Student_Information_Details_App.pdb
