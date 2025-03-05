@@ -1,0 +1,10 @@
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\bin\Debug\Employee_Details_App.exe.config
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\bin\Debug\Employee_Details_App.exe
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\bin\Debug\Employee_Details_App.pdb
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.csproj.AssemblyReference.cache
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.Employee_Details_App.resources
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.Properties.Resources.resources
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.csproj.GenerateResource.cache
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.csproj.CoreCompileInputs.cache
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.exe
+C:\Users\91965\Desktop\C#Assignment\Assignment no 5\Employee_Details_App\Employee_Details_App\obj\Debug\Employee_Details_App.pdb
