@@ -199,7 +199,7 @@ namespace Student_Information_Details_App
             this.btn_Log_Out.BackColor = System.Drawing.Color.White;
             this.btn_Log_Out.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Log_Out.ForeColor = System.Drawing.Color.Red;
-            this.btn_Log_Out.Location = new System.Drawing.Point(795, 39);
+            this.btn_Log_Out.Location = new System.Drawing.Point(803, 10);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(163, 44);
             this.btn_Log_Out.TabIndex = 10;
@@ -349,6 +349,7 @@ namespace Student_Information_Details_App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1296, 770);
+            this.ControlBox = false;
             this.Controls.Add(this.btn_Update);
             this.Controls.Add(this.cmb_Course);
             this.Controls.Add(this.tb_Mob_No);
