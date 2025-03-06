@@ -124,7 +124,6 @@ namespace Product_Information_Details_App
             this.tb_Product_Id.Name = "tb_Product_Id";
             this.tb_Product_Id.Size = new System.Drawing.Size(328, 40);
             this.tb_Product_Id.TabIndex = 1;
-            
             this.tb_Product_Id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Only_Numeric);
             // 
             // tb_Product_Name
@@ -232,7 +231,7 @@ namespace Product_Information_Details_App
             this.btn_Log_Out.BackColor = System.Drawing.Color.White;
             this.btn_Log_Out.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Log_Out.ForeColor = System.Drawing.Color.Red;
-            this.btn_Log_Out.Location = new System.Drawing.Point(1082, 31);
+            this.btn_Log_Out.Location = new System.Drawing.Point(1086, 12);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(139, 43);
             this.btn_Log_Out.TabIndex = 10;
