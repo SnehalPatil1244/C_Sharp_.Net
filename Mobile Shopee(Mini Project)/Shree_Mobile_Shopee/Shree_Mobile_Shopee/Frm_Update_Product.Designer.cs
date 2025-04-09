@@ -60,9 +60,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Update.Location = new System.Drawing.Point(544, 643);
             this.btn_Update.Name = "btn_Update";
             this.btn_Update.Size = new System.Drawing.Size(183, 48);
-            this.btn_Update.TabIndex = 41;
+            this.btn_Update.TabIndex = 8;
             this.btn_Update.Text = "Update";
             this.btn_Update.UseVisualStyleBackColor = false;
+            this.btn_Update.Click += new System.EventHandler(this.btn_Update_Click);
             // 
             // dtp_Date
             // 
@@ -70,7 +71,7 @@ namespace Shree_Mobile_Shopee
             this.dtp_Date.Location = new System.Drawing.Point(949, 81);
             this.dtp_Date.Name = "dtp_Date";
             this.dtp_Date.Size = new System.Drawing.Size(321, 46);
-            this.dtp_Date.TabIndex = 35;
+            this.dtp_Date.TabIndex = 5;
             // 
             // tb_Sale_Rate
             // 
@@ -78,7 +79,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Sale_Rate.Location = new System.Drawing.Point(949, 368);
             this.tb_Sale_Rate.Name = "tb_Sale_Rate";
             this.tb_Sale_Rate.Size = new System.Drawing.Size(321, 45);
-            this.tb_Sale_Rate.TabIndex = 34;
+            this.tb_Sale_Rate.TabIndex = 7;
             // 
             // tb_Purchase_Rate
             // 
@@ -86,7 +87,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Purchase_Rate.Location = new System.Drawing.Point(949, 222);
             this.tb_Purchase_Rate.Name = "tb_Purchase_Rate";
             this.tb_Purchase_Rate.Size = new System.Drawing.Size(321, 45);
-            this.tb_Purchase_Rate.TabIndex = 33;
+            this.tb_Purchase_Rate.TabIndex = 6;
             // 
             // tb_Mobile_Id
             // 
@@ -94,7 +95,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_Id.Location = new System.Drawing.Point(252, 76);
             this.tb_Mobile_Id.Name = "tb_Mobile_Id";
             this.tb_Mobile_Id.Size = new System.Drawing.Size(273, 45);
-            this.tb_Mobile_Id.TabIndex = 32;
+            this.tb_Mobile_Id.TabIndex = 1;
             // 
             // tb_Mobile_Name
             // 
@@ -102,7 +103,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_Name.Location = new System.Drawing.Point(252, 222);
             this.tb_Mobile_Name.Name = "tb_Mobile_Name";
             this.tb_Mobile_Name.Size = new System.Drawing.Size(298, 45);
-            this.tb_Mobile_Name.TabIndex = 31;
+            this.tb_Mobile_Name.TabIndex = 3;
             // 
             // tb_Mobile_Brand
             // 
@@ -110,7 +111,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_Brand.Location = new System.Drawing.Point(252, 367);
             this.tb_Mobile_Brand.Name = "tb_Mobile_Brand";
             this.tb_Mobile_Brand.Size = new System.Drawing.Size(298, 45);
-            this.tb_Mobile_Brand.TabIndex = 30;
+            this.tb_Mobile_Brand.TabIndex = 4;
             // 
             // lbl_Sale_Rate
             // 
@@ -132,9 +133,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 24;
+            this.btn_Log_Out.TabIndex = 10;
             this.btn_Log_Out.Text = "Log Out";
             this.btn_Log_Out.UseVisualStyleBackColor = false;
+            this.btn_Log_Out.Click += new System.EventHandler(this.btn_Log_Out_Click);
             // 
             // lbl_Purchase_Rate
             // 
@@ -201,9 +203,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Back.Location = new System.Drawing.Point(3, 3);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(151, 48);
-            this.btn_Back.TabIndex = 27;
+            this.btn_Back.TabIndex = 9;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // Pnl_Header
             // 
@@ -259,9 +262,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Search.Location = new System.Drawing.Point(545, 76);
             this.btn_Search.Name = "btn_Search";
             this.btn_Search.Size = new System.Drawing.Size(155, 48);
-            this.btn_Search.TabIndex = 47;
+            this.btn_Search.TabIndex = 2;
             this.btn_Search.Text = "Search";
             this.btn_Search.UseVisualStyleBackColor = false;
+            this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // Frm_Update_Product
             // 

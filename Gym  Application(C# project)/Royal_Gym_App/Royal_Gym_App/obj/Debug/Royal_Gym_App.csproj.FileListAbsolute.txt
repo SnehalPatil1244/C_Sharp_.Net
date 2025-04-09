@@ -1,0 +1,8 @@
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.csproj.AssemblyReference.cache
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.Properties.Resources.resources
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.Windows_Form.Login.Frm_Login_Form.resources
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.Windows_Form.Member.Frm_Member_Details.resources
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.Windows_Form.Member.Frm_Update_Member_Details.resources
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.Windows_Form.Member.Frm_View_Member_Details.resources
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.csproj.GenerateResource.cache
+C:\Users\91965\Desktop\C#Assignment\Gym  Application(C# project)\Royal_Gym_App\Royal_Gym_App\obj\Debug\Royal_Gym_App.csproj.CoreCompileInputs.cache

@@ -41,12 +41,12 @@ namespace Shree_Mobile_Shopee
             this.lbl_Customer_Name = new System.Windows.Forms.Label();
             this.lbl_Customer_Id = new System.Windows.Forms.Label();
             this.grpBox_Customer_Details = new System.Windows.Forms.GroupBox();
+            this.btn_Search = new System.Windows.Forms.Button();
             this.dtp_Bill_Date = new System.Windows.Forms.DateTimePicker();
             this.btn_Back = new System.Windows.Forms.Button();
             this.btn_Log_Out = new System.Windows.Forms.Button();
             this.lbl_Search_Customer_Details = new System.Windows.Forms.Label();
             this.Pnl_Header = new System.Windows.Forms.Panel();
-            this.btn_Search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Search_Customer_Details)).BeginInit();
             this.grpBox_Customer_Details.SuspendLayout();
             this.Pnl_Header.SuspendLayout();
@@ -60,7 +60,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Refresh.Location = new System.Drawing.Point(808, 727);
             this.btn_Refresh.Name = "btn_Refresh";
             this.btn_Refresh.Size = new System.Drawing.Size(183, 48);
-            this.btn_Refresh.TabIndex = 44;
+            this.btn_Refresh.TabIndex = 7;
             this.btn_Refresh.Text = "Refresh";
             this.btn_Refresh.UseVisualStyleBackColor = false;
             // 
@@ -70,7 +70,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Total_Bill.Location = new System.Drawing.Point(343, 727);
             this.tb_Total_Bill.Name = "tb_Total_Bill";
             this.tb_Total_Bill.Size = new System.Drawing.Size(298, 45);
-            this.tb_Total_Bill.TabIndex = 43;
+            this.tb_Total_Bill.TabIndex = 6;
             // 
             // dgv_Search_Customer_Details
             // 
@@ -99,7 +99,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_No.Location = new System.Drawing.Point(940, 152);
             this.tb_Mobile_No.Name = "tb_Mobile_No";
             this.tb_Mobile_No.Size = new System.Drawing.Size(321, 45);
-            this.tb_Mobile_No.TabIndex = 31;
+            this.tb_Mobile_No.TabIndex = 5;
             // 
             // tb_Customer_Name
             // 
@@ -107,7 +107,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Customer_Name.Location = new System.Drawing.Point(269, 145);
             this.tb_Customer_Name.Name = "tb_Customer_Name";
             this.tb_Customer_Name.Size = new System.Drawing.Size(298, 45);
-            this.tb_Customer_Name.TabIndex = 30;
+            this.tb_Customer_Name.TabIndex = 3;
             // 
             // tb_Customer_Id
             // 
@@ -115,7 +115,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Customer_Id.Location = new System.Drawing.Point(269, 73);
             this.tb_Customer_Id.Name = "tb_Customer_Id";
             this.tb_Customer_Id.Size = new System.Drawing.Size(298, 45);
-            this.tb_Customer_Id.TabIndex = 29;
+            this.tb_Customer_Id.TabIndex = 1;
             // 
             // lbl_Mobile_No
             // 
@@ -182,13 +182,25 @@ namespace Shree_Mobile_Shopee
             this.grpBox_Customer_Details.TabStop = false;
             this.grpBox_Customer_Details.Text = "Customer Details";
             // 
+            // btn_Search
+            // 
+            this.btn_Search.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_Search.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btn_Search.Location = new System.Drawing.Point(584, 71);
+            this.btn_Search.Name = "btn_Search";
+            this.btn_Search.Size = new System.Drawing.Size(155, 48);
+            this.btn_Search.TabIndex = 2;
+            this.btn_Search.Text = "Search";
+            this.btn_Search.UseVisualStyleBackColor = false;
+            // 
             // dtp_Bill_Date
             // 
             this.dtp_Bill_Date.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_Bill_Date.Location = new System.Drawing.Point(940, 71);
             this.dtp_Bill_Date.Name = "dtp_Bill_Date";
             this.dtp_Bill_Date.Size = new System.Drawing.Size(321, 46);
-            this.dtp_Bill_Date.TabIndex = 32;
+            this.dtp_Bill_Date.TabIndex = 4;
             // 
             // btn_Back
             // 
@@ -198,7 +210,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Back.Location = new System.Drawing.Point(3, 3);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(151, 48);
-            this.btn_Back.TabIndex = 27;
+            this.btn_Back.TabIndex = 8;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
             // 
@@ -210,7 +222,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 24;
+            this.btn_Log_Out.TabIndex = 9;
             this.btn_Log_Out.Text = "Log Out";
             this.btn_Log_Out.UseVisualStyleBackColor = false;
             // 
@@ -235,18 +247,6 @@ namespace Shree_Mobile_Shopee
             this.Pnl_Header.Name = "Pnl_Header";
             this.Pnl_Header.Size = new System.Drawing.Size(1299, 103);
             this.Pnl_Header.TabIndex = 39;
-            // 
-            // btn_Search
-            // 
-            this.btn_Search.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_Search.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Search.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_Search.Location = new System.Drawing.Point(584, 71);
-            this.btn_Search.Name = "btn_Search";
-            this.btn_Search.Size = new System.Drawing.Size(155, 48);
-            this.btn_Search.TabIndex = 46;
-            this.btn_Search.Text = "Search";
-            this.btn_Search.UseVisualStyleBackColor = false;
             // 
             // Frm_Search_Customer
             // 

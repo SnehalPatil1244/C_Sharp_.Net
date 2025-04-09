@@ -33,9 +33,9 @@ namespace Shree_Mobile_Shopee
             this.btn_Back = new System.Windows.Forms.Button();
             this.btn_Log_Out = new System.Windows.Forms.Button();
             this.lbl_View_Mobile_List = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_Mobile_List = new System.Windows.Forms.DataGridView();
             this.Pnl_Header.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Mobile_List)).BeginInit();
             this.SuspendLayout();
             // 
             // Pnl_Header
@@ -57,9 +57,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Back.Location = new System.Drawing.Point(3, 3);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(151, 48);
-            this.btn_Back.TabIndex = 27;
+            this.btn_Back.TabIndex = 1;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // btn_Log_Out
             // 
@@ -69,9 +70,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 24;
+            this.btn_Log_Out.TabIndex = 2;
             this.btn_Log_Out.Text = "Log Out";
             this.btn_Log_Out.UseVisualStyleBackColor = false;
+            this.btn_Log_Out.Click += new System.EventHandler(this.btn_Log_Out_Click);
             // 
             // lbl_View_Mobile_List
             // 
@@ -84,15 +86,15 @@ namespace Shree_Mobile_Shopee
             this.lbl_View_Mobile_List.TabIndex = 0;
             this.lbl_View_Mobile_List.Text = "View Mobile List";
             // 
-            // dataGridView1
+            // dgv_Mobile_List
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 120);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1272, 571);
-            this.dataGridView1.TabIndex = 41;
+            this.dgv_Mobile_List.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_Mobile_List.Location = new System.Drawing.Point(12, 120);
+            this.dgv_Mobile_List.Name = "dgv_Mobile_List";
+            this.dgv_Mobile_List.RowHeadersWidth = 51;
+            this.dgv_Mobile_List.RowTemplate.Height = 24;
+            this.dgv_Mobile_List.Size = new System.Drawing.Size(1272, 571);
+            this.dgv_Mobile_List.TabIndex = 41;
             // 
             // Frm_View_Mobile_List
             // 
@@ -100,13 +102,14 @@ namespace Shree_Mobile_Shopee
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1296, 703);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_Mobile_List);
             this.Controls.Add(this.Pnl_Header);
             this.Name = "Frm_View_Mobile_List";
             this.Text = "Frm_View_Mobile_List";
+            this.Load += new System.EventHandler(this.Frm_View_Mobile_List_Load);
             this.Pnl_Header.ResumeLayout(false);
             this.Pnl_Header.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_Mobile_List)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -117,6 +120,6 @@ namespace Shree_Mobile_Shopee
         private System.Windows.Forms.Button btn_Back;
         private System.Windows.Forms.Button btn_Log_Out;
         private System.Windows.Forms.Label lbl_View_Mobile_List;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_Mobile_List;
     }
 }

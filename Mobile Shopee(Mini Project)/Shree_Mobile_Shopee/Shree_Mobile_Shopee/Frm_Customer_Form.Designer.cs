@@ -45,7 +45,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out.Location = new System.Drawing.Point(1123, 26);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 25;
+            this.btn_Log_Out.TabIndex = 4;
             this.btn_Log_Out.Text = "Log Out";
             this.btn_Log_Out.UseVisualStyleBackColor = false;
             // 
@@ -57,7 +57,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Back.Location = new System.Drawing.Point(652, 26);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(151, 48);
-            this.btn_Back.TabIndex = 26;
+            this.btn_Back.TabIndex = 3;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
             // 
@@ -68,7 +68,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Add_New_Customer.Location = new System.Drawing.Point(743, 224);
             this.btn_Add_New_Customer.Name = "btn_Add_New_Customer";
             this.btn_Add_New_Customer.Size = new System.Drawing.Size(429, 55);
-            this.btn_Add_New_Customer.TabIndex = 27;
+            this.btn_Add_New_Customer.TabIndex = 1;
             this.btn_Add_New_Customer.Text = "Add New Customer";
             this.btn_Add_New_Customer.UseVisualStyleBackColor = true;
             // 
@@ -79,7 +79,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Search_Customer.Location = new System.Drawing.Point(757, 419);
             this.btn_Search_Customer.Name = "btn_Search_Customer";
             this.btn_Search_Customer.Size = new System.Drawing.Size(415, 55);
-            this.btn_Search_Customer.TabIndex = 28;
+            this.btn_Search_Customer.TabIndex = 2;
             this.btn_Search_Customer.Text = "Search Customer";
             this.btn_Search_Customer.UseVisualStyleBackColor = true;
             // 

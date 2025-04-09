@@ -59,7 +59,87 @@ namespace Shree_Mobile_Shopee
             SqlCommand Cmd = new SqlCommand();
             Cmd.Connection = Con;
             Cmd.CommandText = "Select Count (*)From Product_Details";
+            Cnt = Convert.ToInt32(Cmd.ExecuteScalar());
+            Cmd.Dispose();
 
+            if(Cnt > 0)
+            {
+                Cmd.Connection = Con;
+                Cmd.CommandText = "select max(Mobile_Id) from Product_Details";
+
+                Cnt = Convert.ToInt32(Cmd.ExecuteScalar());
+
+            }
+            else
+            {
+                Cnt = 0;
+            }
+
+            tb_Mobile_Id.Text = Convert.ToString(Cnt);
+
+            Con_Stop();
+
+            return Cnt + 1;
+        }
+
+        private void btn_Save_Click(object sender, EventArgs e)
+        {
+            Con_Start();
+
+            if (tb_Mobile_Id.Text != "" && tb_Mobile_Name.Text != "" && tb_Mobile_Brand.Text != "" && tb_Purchase_Rate.Text != "" && tb_Sale_Rate.Text != "")
+            {
+                SqlCommand Cmd = new SqlCommand();
+                Cmd.Connection = Con;
+                Cmd.CommandText = "Insert Into Product_Details Values (@MId, @Name, @MBrand, @DT, @PPrice, @SPrice)";
+
+                Cmd.Parameters.Add("MId", SqlDbType.Int).Value = tb_Mobile_Id.Text;
+                Cmd.Parameters.Add("Name", SqlDbType.NVarChar).Value = tb_Mobile_Name.Text;
+                Cmd.Parameters.Add("MBrand", SqlDbType.NVarChar).Value = tb_Mobile_Brand.Text;
+                Cmd.Parameters.Add("DT", SqlDbType.Date).Value = dtp_Date.Text;
+                Cmd.Parameters.Add("PPrice", SqlDbType.Money).Value = tb_Purchase_Rate.Text;
+                Cmd.Parameters.Add("SPrice", SqlDbType.Money).Value = tb_Sale_Rate.Text;
+
+                Cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Saved Succesfully", "SAVED", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                Clear_Controls();
+
+
+            }
+            else
+            {
+                MessageBox.Show("Incomplet Data", "Error", MessageBoxButtons.OK);
+                Clear_Controls();
+
+            }
+
+
+            Con_Stop();
+        }
+
+        private void btn_Back_Click(object sender, EventArgs e)
+        {
+            Frm_Mobile_Form obj = new Frm_Mobile_Form();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void btn_Log_Out_Click(object sender, EventArgs e)
+        {
+            DialogResult Res = MessageBox.Show("You Want To LogOut??", "LOGGING OUT", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (Res == DialogResult.Yes)
+            {
+                Frm_Login_Form Obj = new Frm_Login_Form();
+                Obj.Show();
+                this.Hide();
+            }
         }
     }
 }
+        
+    
+
+
+

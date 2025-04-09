@@ -34,6 +34,9 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out = new System.Windows.Forms.Button();
             this.lbl_Add_New_Mobile = new System.Windows.Forms.Label();
             this.grpBox_New_Mobile = new System.Windows.Forms.GroupBox();
+            this.dtp_Date = new System.Windows.Forms.DateTimePicker();
+            this.tb_Sale_Rate = new System.Windows.Forms.TextBox();
+            this.tb_Purchase_Rate = new System.Windows.Forms.TextBox();
             this.tb_Mobile_Id = new System.Windows.Forms.TextBox();
             this.tb_Mobile_Name = new System.Windows.Forms.TextBox();
             this.tb_Mobile_Brand = new System.Windows.Forms.TextBox();
@@ -43,9 +46,6 @@ namespace Shree_Mobile_Shopee
             this.lbl_Mobile_Name = new System.Windows.Forms.Label();
             this.lbl_Mobile_Brand = new System.Windows.Forms.Label();
             this.lbl_Mobile_Id = new System.Windows.Forms.Label();
-            this.tb_Purchase_Rate = new System.Windows.Forms.TextBox();
-            this.tb_Sale_Rate = new System.Windows.Forms.TextBox();
-            this.dtp_Date = new System.Windows.Forms.DateTimePicker();
             this.btn_Save = new System.Windows.Forms.Button();
             this.Pnl_Header.SuspendLayout();
             this.grpBox_New_Mobile.SuspendLayout();
@@ -70,9 +70,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Back.Location = new System.Drawing.Point(3, 3);
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(151, 48);
-            this.btn_Back.TabIndex = 27;
+            this.btn_Back.TabIndex = 8;
             this.btn_Back.Text = "Back";
             this.btn_Back.UseVisualStyleBackColor = false;
+            this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // btn_Log_Out
             // 
@@ -82,7 +83,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
             this.btn_Log_Out.Name = "btn_Log_Out";
             this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 24;
+            this.btn_Log_Out.TabIndex = 9;
             this.btn_Log_Out.Text = "Log Out";
             this.btn_Log_Out.UseVisualStyleBackColor = false;
             // 
@@ -120,13 +121,37 @@ namespace Shree_Mobile_Shopee
             this.grpBox_New_Mobile.TabStop = false;
             this.grpBox_New_Mobile.Text = "Mobile Details";
             // 
+            // dtp_Date
+            // 
+            this.dtp_Date.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_Date.Location = new System.Drawing.Point(921, 81);
+            this.dtp_Date.Name = "dtp_Date";
+            this.dtp_Date.Size = new System.Drawing.Size(321, 46);
+            this.dtp_Date.TabIndex = 4;
+            // 
+            // tb_Sale_Rate
+            // 
+            this.tb_Sale_Rate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_Sale_Rate.Location = new System.Drawing.Point(921, 373);
+            this.tb_Sale_Rate.Name = "tb_Sale_Rate";
+            this.tb_Sale_Rate.Size = new System.Drawing.Size(321, 45);
+            this.tb_Sale_Rate.TabIndex = 6;
+            // 
+            // tb_Purchase_Rate
+            // 
+            this.tb_Purchase_Rate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_Purchase_Rate.Location = new System.Drawing.Point(921, 228);
+            this.tb_Purchase_Rate.Name = "tb_Purchase_Rate";
+            this.tb_Purchase_Rate.Size = new System.Drawing.Size(321, 45);
+            this.tb_Purchase_Rate.TabIndex = 5;
+            // 
             // tb_Mobile_Id
             // 
             this.tb_Mobile_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_Mobile_Id.Location = new System.Drawing.Point(282, 81);
             this.tb_Mobile_Id.Name = "tb_Mobile_Id";
             this.tb_Mobile_Id.Size = new System.Drawing.Size(298, 45);
-            this.tb_Mobile_Id.TabIndex = 32;
+            this.tb_Mobile_Id.TabIndex = 1;
             // 
             // tb_Mobile_Name
             // 
@@ -134,7 +159,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_Name.Location = new System.Drawing.Point(282, 227);
             this.tb_Mobile_Name.Name = "tb_Mobile_Name";
             this.tb_Mobile_Name.Size = new System.Drawing.Size(298, 45);
-            this.tb_Mobile_Name.TabIndex = 31;
+            this.tb_Mobile_Name.TabIndex = 2;
             // 
             // tb_Mobile_Brand
             // 
@@ -142,7 +167,7 @@ namespace Shree_Mobile_Shopee
             this.tb_Mobile_Brand.Location = new System.Drawing.Point(282, 367);
             this.tb_Mobile_Brand.Name = "tb_Mobile_Brand";
             this.tb_Mobile_Brand.Size = new System.Drawing.Size(298, 45);
-            this.tb_Mobile_Brand.TabIndex = 30;
+            this.tb_Mobile_Brand.TabIndex = 3;
             // 
             // lbl_Sale_Rate
             // 
@@ -213,30 +238,6 @@ namespace Shree_Mobile_Shopee
             this.lbl_Mobile_Id.TabIndex = 1;
             this.lbl_Mobile_Id.Text = "Mobile Id";
             // 
-            // tb_Purchase_Rate
-            // 
-            this.tb_Purchase_Rate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Purchase_Rate.Location = new System.Drawing.Point(921, 228);
-            this.tb_Purchase_Rate.Name = "tb_Purchase_Rate";
-            this.tb_Purchase_Rate.Size = new System.Drawing.Size(321, 45);
-            this.tb_Purchase_Rate.TabIndex = 33;
-            // 
-            // tb_Sale_Rate
-            // 
-            this.tb_Sale_Rate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Sale_Rate.Location = new System.Drawing.Point(921, 373);
-            this.tb_Sale_Rate.Name = "tb_Sale_Rate";
-            this.tb_Sale_Rate.Size = new System.Drawing.Size(321, 45);
-            this.tb_Sale_Rate.TabIndex = 34;
-            // 
-            // dtp_Date
-            // 
-            this.dtp_Date.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_Date.Location = new System.Drawing.Point(921, 81);
-            this.dtp_Date.Name = "dtp_Date";
-            this.dtp_Date.Size = new System.Drawing.Size(321, 46);
-            this.dtp_Date.TabIndex = 35;
-            // 
             // btn_Save
             // 
             this.btn_Save.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -245,9 +246,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Save.Location = new System.Drawing.Point(563, 633);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(183, 48);
-            this.btn_Save.TabIndex = 38;
+            this.btn_Save.TabIndex = 7;
             this.btn_Save.Text = "Save";
             this.btn_Save.UseVisualStyleBackColor = false;
+            this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // Frm_New_Mobile
             // 

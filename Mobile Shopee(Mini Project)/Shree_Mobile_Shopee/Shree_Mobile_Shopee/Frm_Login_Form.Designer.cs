@@ -71,7 +71,7 @@ namespace Shree_Mobile_Shopee
             this.Btn_Submit.Location = new System.Drawing.Point(847, 587);
             this.Btn_Submit.Name = "Btn_Submit";
             this.Btn_Submit.Size = new System.Drawing.Size(142, 50);
-            this.Btn_Submit.TabIndex = 26;
+            this.Btn_Submit.TabIndex = 3;
             this.Btn_Submit.Text = "Submit";
             this.Btn_Submit.UseVisualStyleBackColor = false;
             this.Btn_Submit.Click += new System.EventHandler(this.Btn_Submit_Click);
@@ -82,8 +82,9 @@ namespace Shree_Mobile_Shopee
             this.Tb_Password.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tb_Password.Location = new System.Drawing.Point(965, 430);
             this.Tb_Password.Name = "Tb_Password";
+            this.Tb_Password.PasswordChar = '*';
             this.Tb_Password.Size = new System.Drawing.Size(298, 45);
-            this.Tb_Password.TabIndex = 25;
+            this.Tb_Password.TabIndex = 2;
             this.Tb_Password.TextChanged += new System.EventHandler(this.Text_Changed);
             // 
             // lbl_Password
@@ -125,7 +126,7 @@ namespace Shree_Mobile_Shopee
             this.tb_UserName.Location = new System.Drawing.Point(965, 289);
             this.tb_UserName.Name = "tb_UserName";
             this.tb_UserName.Size = new System.Drawing.Size(298, 45);
-            this.tb_UserName.TabIndex = 28;
+            this.tb_UserName.TabIndex = 1;
             this.tb_UserName.TextChanged += new System.EventHandler(this.text_Change);
             // 
             // picBox_Login_Form

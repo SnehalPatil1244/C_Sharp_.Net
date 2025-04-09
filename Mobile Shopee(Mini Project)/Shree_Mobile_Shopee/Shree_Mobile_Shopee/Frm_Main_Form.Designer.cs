@@ -30,10 +30,10 @@ namespace Shree_Mobile_Shopee
         private void InitializeComponent()
         {
             this.Pnl_Header = new System.Windows.Forms.Panel();
+            this.btn_Log_Out = new System.Windows.Forms.Button();
             this.lbl_Shree_Mobile_Shopee = new System.Windows.Forms.Label();
             this.btn_Mobiles = new System.Windows.Forms.Button();
             this.btn_Customer = new System.Windows.Forms.Button();
-            this.btn_Log_Out = new System.Windows.Forms.Button();
             this.picBox_Customer = new System.Windows.Forms.PictureBox();
             this.picBox_Mobile = new System.Windows.Forms.PictureBox();
             this.Pnl_Header.SuspendLayout();
@@ -50,6 +50,19 @@ namespace Shree_Mobile_Shopee
             this.Pnl_Header.Name = "Pnl_Header";
             this.Pnl_Header.Size = new System.Drawing.Size(1299, 103);
             this.Pnl_Header.TabIndex = 19;
+            // 
+            // btn_Log_Out
+            // 
+            this.btn_Log_Out.BackColor = System.Drawing.Color.White;
+            this.btn_Log_Out.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Log_Out.ForeColor = System.Drawing.Color.Red;
+            this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
+            this.btn_Log_Out.Name = "btn_Log_Out";
+            this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
+            this.btn_Log_Out.TabIndex = 3;
+            this.btn_Log_Out.Text = "Log Out";
+            this.btn_Log_Out.UseVisualStyleBackColor = false;
+            this.btn_Log_Out.Click += new System.EventHandler(this.btn_Log_Out_Click);
             // 
             // lbl_Shree_Mobile_Shopee
             // 
@@ -70,7 +83,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Mobiles.Location = new System.Drawing.Point(233, 643);
             this.btn_Mobiles.Name = "btn_Mobiles";
             this.btn_Mobiles.Size = new System.Drawing.Size(183, 48);
-            this.btn_Mobiles.TabIndex = 22;
+            this.btn_Mobiles.TabIndex = 1;
             this.btn_Mobiles.Text = "Mobiles";
             this.btn_Mobiles.UseVisualStyleBackColor = false;
             this.btn_Mobiles.Click += new System.EventHandler(this.btn_Mobiles_Click);
@@ -83,23 +96,10 @@ namespace Shree_Mobile_Shopee
             this.btn_Customer.Location = new System.Drawing.Point(872, 643);
             this.btn_Customer.Name = "btn_Customer";
             this.btn_Customer.Size = new System.Drawing.Size(185, 53);
-            this.btn_Customer.TabIndex = 23;
+            this.btn_Customer.TabIndex = 2;
             this.btn_Customer.Text = "Customer";
             this.btn_Customer.UseVisualStyleBackColor = false;
             this.btn_Customer.Click += new System.EventHandler(this.btn_Customer_Click);
-            // 
-            // btn_Log_Out
-            // 
-            this.btn_Log_Out.BackColor = System.Drawing.Color.White;
-            this.btn_Log_Out.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Log_Out.ForeColor = System.Drawing.Color.Red;
-            this.btn_Log_Out.Location = new System.Drawing.Point(1145, 3);
-            this.btn_Log_Out.Name = "btn_Log_Out";
-            this.btn_Log_Out.Size = new System.Drawing.Size(151, 48);
-            this.btn_Log_Out.TabIndex = 24;
-            this.btn_Log_Out.Text = "Log Out";
-            this.btn_Log_Out.UseVisualStyleBackColor = false;
-            this.btn_Log_Out.Click += new System.EventHandler(this.btn_Log_Out_Click);
             // 
             // picBox_Customer
             // 
