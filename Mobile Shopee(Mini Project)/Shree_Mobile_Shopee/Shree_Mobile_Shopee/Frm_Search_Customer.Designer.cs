@@ -57,7 +57,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Refresh.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Refresh.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Refresh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_Refresh.Location = new System.Drawing.Point(808, 727);
+            this.btn_Refresh.Location = new System.Drawing.Point(826, 727);
             this.btn_Refresh.Name = "btn_Refresh";
             this.btn_Refresh.Size = new System.Drawing.Size(183, 48);
             this.btn_Refresh.TabIndex = 7;
@@ -67,7 +67,7 @@ namespace Shree_Mobile_Shopee
             // tb_Total_Bill
             // 
             this.tb_Total_Bill.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_Total_Bill.Location = new System.Drawing.Point(343, 727);
+            this.tb_Total_Bill.Location = new System.Drawing.Point(341, 727);
             this.tb_Total_Bill.Name = "tb_Total_Bill";
             this.tb_Total_Bill.Size = new System.Drawing.Size(298, 45);
             this.tb_Total_Bill.TabIndex = 6;

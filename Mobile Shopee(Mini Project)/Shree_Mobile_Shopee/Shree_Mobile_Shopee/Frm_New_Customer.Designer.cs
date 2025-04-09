@@ -320,7 +320,7 @@ namespace Shree_Mobile_Shopee
             this.btn_Save.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Save.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Save.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btn_Save.Location = new System.Drawing.Point(810, 743);
+            this.btn_Save.Location = new System.Drawing.Point(820, 741);
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(183, 48);
             this.btn_Save.TabIndex = 11;
